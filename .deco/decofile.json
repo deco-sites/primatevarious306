@@ -7,6 +7,14 @@
     "title": "FAQs",
     "__resolveType": "site/sections/Faq.tsx"
   },
+  "Footer": {
+    "__resolveType": "site/sections/Footer.tsx",
+    "links": [],
+    "bottomLinks": [],
+    "social": [],
+    "subscribe": {},
+    "copyright": "2024 RSBASE Web Design"
+  },
   "Groovy Vibes": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
     "colorScheme": "any",
@@ -42,6 +50,14 @@
           "family": "Shrikhand"
         }
       ]
+    },
+    "mode": "light"
+  },
+  "Header": {
+    "__resolveType": "site/sections/Header.tsx",
+    "navigation": {
+      "links": [],
+      "buttons": []
     }
   },
   "Mobile": {
@@ -83,7 +99,8 @@
           "family": "Albert Sans"
         }
       ]
-    }
+    },
+    "mode": "light"
   },
   "Preview /sections/Faq.tsx": {
     "__resolveType": "site/sections/Faq.tsx"
@@ -101,6 +118,9 @@
     "cta": [],
     "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
   },
+  "Preview /sections/ImageWithParagraph.tsx": {
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
+  },
   "Preview /sections/hero-1.tsx": {
     "__resolveType": "site/sections/hero-1.tsx"
   },
@@ -110,6 +130,9 @@
   "Preview Sections MyHero": {
     "name": "works!",
     "__resolveType": "site/sections/myHero.tsx"
+  },
+  "Preview site/sections/ImageWithParagraph.tsx": {
+    "__resolveType": "site/sections/ImageWithParagraph.tsx"
   },
   "Serene Coastline": {
     "__resolveType": "site/sections/Theme/Theme.tsx",
@@ -251,7 +274,11 @@
     "__resolveType": "site/apps/decohub.ts"
   },
   "hero": {
-    "__resolveType": "site/sections/Hero.tsx"
+    "__resolveType": "site/sections/Hero.tsx",
+    "title": "Click here to tweak this text however you want.",
+    "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
+    "placement": "left",
+    "cta": []
   },
   "htmx": {
     "__resolveType": "decohub/apps/htmx.ts",
@@ -288,9 +315,6 @@
       },
       {
         "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
       }
     ],
     "__resolveType": "website/pages/Page.tsx"
@@ -329,24 +353,7 @@
       "__resolveType": "Neutral"
     }
   },
-  "Preview /sections/ImageWithParagraph.tsx": {
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
-  },
-  "Preview site/sections/ImageWithParagraph.tsx": {
-    "__resolveType": "site/sections/ImageWithParagraph.tsx"
-  },
-  "Header": {
-    "__resolveType": "site/sections/Header.tsx",
-    "navigation": {
-      "links": [],
-      "buttons": []
-    }
-  },
-  "Footer": {
-    "__resolveType": "site/sections/Footer.tsx",
-    "links": [],
-    "bottomLinks": [],
-    "social": [],
-    "subscribe": {}
+  "workflows": {
+    "__resolveType": "decohub/apps/workflows.ts"
   }
 }
